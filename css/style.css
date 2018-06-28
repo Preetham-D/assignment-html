@@ -1,6 +1,7 @@
 nav {
+  /* position: fixed; */
   float: right;
-  text-align: right;
+  /* text-align: right; */
   height: 50px;
   padding: 35px;
 }
@@ -8,11 +9,13 @@ nav {
 nav a {
   text-decoration: none;
   padding: 15px;
-  margin-top: 10px;
+  color:rgb(58, 52, 52);
+  box-shadow: 2px 2px  rgb(46, 44, 44);
 }
 
 nav a:hover {
   text-decoration: underline;
+
 }
 
 .brand-logo {
@@ -35,4 +38,17 @@ nav a:hover {
   overflow: hidden;
   width: 300px;
   height: 225px;
+}
+
+footer {
+  background-color: rgb(46, 44, 44);
+}
+
+footer h2,ul{
+  color: aliceblue;
+  text-align: right;
+  /* list-style-type: none; */
+}
+footer li{
+  list-style-type: none;
 }
