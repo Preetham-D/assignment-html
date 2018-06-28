@@ -1,0 +1,38 @@
+nav {
+  float: right;
+  text-align: right;
+  height: 50px;
+  padding: 35px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.brand-logo {
+  height: 100px;
+  width: 130px;
+  background-position-x: 0%;
+}
+
+.box {
+  margin: 10px;
+  /* background-color: rgb(241, 238, 238); */
+}
+
+.box img{
+  /* align-self: auto; */
+  margin-left: 170px;
+}
+
+.wrap img {
+  overflow: hidden;
+  width: 300px;
+  height: 225px;
+}
