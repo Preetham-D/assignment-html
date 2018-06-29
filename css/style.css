@@ -53,10 +53,10 @@ nav a:hover {
   /* align-self: auto; */
   margin-left: 170px;
 }
-.box img:hover{
+/* .box img:hover{
   height: 500px;
   width: 670;
-}
+} */
 .wrap img {
   overflow: hidden;
   width: 300px;
@@ -70,11 +70,14 @@ nav a:hover {
 
 footer {
   background-color: rgb(46, 44, 44);
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 footer h2,ul{
   color: aliceblue;
   text-align: right;
+  margin-right: 40px;
   /* list-style-type: none; */
 }
 footer li{
