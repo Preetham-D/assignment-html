@@ -4,24 +4,32 @@
 header h1{
   /* padding-top: 0px; */
   margin-top: 0px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Galada', cursive;
 }
 nav {
   /* position: fixed; */
   float: right;
   text-align: right;
+  /* height: 50px; */
+  width: 40%;
   height: 50px;
-  padding: 30px;
-  /* padding-top: 30px; */
+  /* color: aliceblue; */
+  /* background-color: rgb(46, 44, 44); */
+  margin-left: 500px;
+  margin-top:-80px;
+  padding: 15px;
+   /* padding-top: 20px; */
 }
 
 nav a {
   text-decoration: none;
   /* margin-top:10px;  */
-  padding: 20px;
-  /* padding-top: 500px; */
-  color:rgb(58, 52, 52);
-  box-shadow: 1px 2px  rgb(46, 44, 44);
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 30px;
+  /* color:white; */
+  color:rgb(46, 44, 44);
+  box-shadow: 1px 2px rgb(46, 44, 44);
 }
 
 nav a:hover {
@@ -37,6 +45,7 @@ nav a:hover {
 
 .box {
   margin: 10px;
+  margin-bottom: 50px;
   /* background-color: rgb(241, 238, 238); */
 }
 
@@ -44,11 +53,19 @@ nav a:hover {
   /* align-self: auto; */
   margin-left: 170px;
 }
-
+.box img:hover{
+  height: 500px;
+  width: 670;
+}
 .wrap img {
   overflow: hidden;
   width: 300px;
   height: 225px;
+}
+
+.wrap img:hover{
+  height: 235px;
+  width: 310px;
 }
 
 footer {
@@ -62,4 +79,29 @@ footer h2,ul{
 }
 footer li{
   list-style-type: none;
+}
+
+.History_box {
+  background-color: rgba(243, 225, 221, 0.918);
+}
+
+.History_box h2{
+  margin-left: 20px;
+}
+
+.History_box p{
+  margin-left: 20px;
+}
+
+.side h2{
+  text-align: center;
+}
+.side img{
+  margin-left: 30px;
+}
+
+.side p{
+  text-align: center;
+  margin-left: 49px;
+  word-wrap: break-word;
 }
