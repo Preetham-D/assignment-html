@@ -1,15 +1,17 @@
-/* body {
-  padding: 15px;
-/* } */
+body {
+  font-family: 'Merriweather', serif;
+ }
 header h1{
   /* padding-top: 0px; */
-  margin-top: 0px;
+  float: right;
+  margin-top: -80px;
+  margin-right: 750px;
   font-family: 'Galada', cursive;
 }
 nav {
   /* position: fixed; */
   float: right;
-  text-align: right;
+  text-align:center;
   /* height: 50px; */
   width: 40%;
   height: 50px;
@@ -66,6 +68,10 @@ nav a:hover {
 .wrap img:hover{
   height: 235px;
   width: 310px;
+} 
+
+.reg label{
+  display: block;
 }
 
 footer {
@@ -82,6 +88,53 @@ footer h2,ul{
 }
 footer li{
   list-style-type: none;
+}
+
+.fa{
+  margin-left: 360px;
+}
+
+.fa a{
+  padding: 2px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.fa a:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 .History_box {
@@ -107,4 +160,41 @@ footer li{
   text-align: center;
   margin-left: 49px;
   word-wrap: break-word;
+}
+
+p img{
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 460px;
+}
+
+.plan {
+  padding-top: 20px;
+}
+
+.plan a{
+  padding-left: 40px;
+  margin-top:20px;
+}
+
+.new_plan {
+  padding-top: 18px;
+}
+
+.new_plan a{
+  padding-left: 40px;
+  margin-top:20px;
+}
+.plan div{
+  background: rgba(0, 0, 0, 0.281);
+  padding-bottom: 130px
+}
+
+.new_plan div{
+  background: rgba(0, 0, 0, 0.281);
+  padding-bottom: 130px
+}
+
+.new_plan {
+  padding-bottom: 10px;
 }
