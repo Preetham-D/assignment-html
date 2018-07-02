@@ -1,12 +1,19 @@
 body {
   font-family: 'Merriweather', serif;
  }
+
+ header{
+   position: fixed;
+   /* padding-bottom: 20px; */
+   background-color: white;
+ }
 header h1{
   /* padding-top: 0px; */
+  /* position: fixed; */
   float: right;
-  margin-top: -80px;
-  margin-right: 750px;
-  font-family: 'Galada', cursive;
+  margin-top:-70px;
+  margin-right: 900px;
+  font-family: 'Merriweather', serif;
 }
 nav {
   /* position: fixed; */
@@ -18,7 +25,7 @@ nav {
   /* color: aliceblue; */
   /* background-color: rgb(46, 44, 44); */
   margin-left: 500px;
-  margin-top:-80px;
+  /* margin-top:30px; */
   padding: 15px;
    /* padding-top: 20px; */
 }
@@ -31,7 +38,7 @@ nav a {
   padding-top: 30px;
   /* color:white; */
   color:rgb(46, 44, 44);
-  box-shadow: 1px 2px rgb(46, 44, 44);
+  /* box-shadow: 1px 2px rgb(46, 44, 44); */
 }
 
 nav a:hover {
@@ -54,6 +61,7 @@ nav a:hover {
 .box img{
   /* align-self: auto; */
   margin-left: 170px;
+  margin-top: 60px;
 }
 /* .box img:hover{
   height: 500px;
@@ -70,8 +78,12 @@ nav a:hover {
   width: 310px;
 } 
 
-.reg label{
-  display: block;
+.legends h2{
+  text-align: left;
+}
+
+.legends img{
+  height: 180px;
 }
 
 footer {
@@ -82,7 +94,7 @@ footer {
 
 footer h2,ul{
   color: aliceblue;
-  text-align: right;
+  text-align: center;
   margin-right: 40px;
   /* list-style-type: none; */
 }
@@ -91,7 +103,11 @@ footer li{
 }
 
 .fa{
-  margin-left: 360px;
+  margin-left: 300px;
+}
+
+.fa h2{
+  font-family: 'Merriweather', serif;
 }
 
 .fa a{
@@ -139,7 +155,7 @@ footer li{
 
 .History_box {
   background-color: rgba(243, 225, 221, 0.918);
-  margin-bottom: 
+  /* margin-bottom:  */
 }
 
 .History_box h2{
@@ -171,42 +187,55 @@ p img{
 
 .hero img{
   height: 400px;
+  margin-top: 100px; 
+  padding-top: 50px;
 }
 .plan {
   padding-top: 20px;
 }
 
-.plan a{
+/* .plan a{
   padding-left: 40px;
   margin-top:20px;
-}
+} */
 
 .plan img:hover{
   opacity: 0.7;
 }
 
 .plan div{
-  background: rgba(0, 0, 0, 0.281);
-  padding-bottom: 130px
+  border: 2px solid rgba(0, 0, 0, 0.281);
+  padding-bottom: 130px;
+  text-align: center;
+}
+
+.plan div:hover{
+  background-color: antiquewhite;
 }
 
 .new_plan {
   padding-top: 18px;
 }
 
-.new_plan a{
+/* .new_plan a{
   padding-left: 40px;
   margin-top:20px;
-}
+} */
 
 .new_plan img:hover{
   opacity: 0.7;
 }
 
 .new_plan div{
-  background: rgba(0, 0, 0, 0.281);
-  padding-bottom: 130px
+  border: 2px solid rgba(0, 0, 0, 0.281);
+  background-color: whitesmoke;
+  padding-bottom: 55px;
+  text-align: center;
 }
+
+/* .new_plan div:hover{
+  background-color: antiquewhite;
+} */
 
 .new_plan {
   padding-bottom: 10px;
